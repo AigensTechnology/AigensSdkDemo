@@ -1,0 +1,6 @@
+framework module aigens_sdk_core {
+  umbrella header "aigens-sdk-core-umbrella.h"
+
+  export *
+  module * { export * }
+}

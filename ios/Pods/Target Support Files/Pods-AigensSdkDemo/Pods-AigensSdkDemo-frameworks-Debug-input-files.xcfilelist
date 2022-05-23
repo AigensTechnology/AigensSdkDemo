@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AigensSdkDemo/Pods-AigensSdkDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Capacitor/Capacitor.framework
+${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework
+${BUILT_PRODUCTS_DIR}/aigens-sdk-core/aigens_sdk_core.framework
