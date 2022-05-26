@@ -1,0 +1,27 @@
+PODS:
+  - aigens-sdk-core (0.0.3):
+    - Capacitor (~> 3.5.1)
+  - Capacitor (3.5.1):
+    - CapacitorCordova
+  - CapacitorCordova (3.5.1)
+
+DEPENDENCIES:
+  - aigens-sdk-core (from `../../../aigens-sdk/ios/aigens-sdk-core/`)
+
+SPEC REPOS:
+  trunk:
+    - Capacitor
+    - CapacitorCordova
+
+EXTERNAL SOURCES:
+  aigens-sdk-core:
+    :path: "../../../aigens-sdk/ios/aigens-sdk-core/"
+
+SPEC CHECKSUMS:
+  aigens-sdk-core: 368b9e2376a71ef974eb6cddba6cd2b61bb305a7
+  Capacitor: c1b2bffd379c546d3aa1cec58a388592353a509c
+  CapacitorCordova: 46db16aab80803f65018a73fca15a7399fb1ed8c
+
+PODFILE CHECKSUM: eb10cba009fb8f090ca3f3caafc80400f43fbcb0
+
+COCOAPODS: 1.11.3
