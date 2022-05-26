@@ -13,13 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func openClicked(_ sender: Any) {
         
-       
-        let url = "https://test.order.place/order/store/5764191071764480/mode/takeaway?back=true";
+        let url = "https://scantest.aigens.com/scan?code=c3RvcmU9NTAwJnNwb3Q9MSZwYWdlPWJ5b2Q="
         
         let bridgeVC = WebContainerViewController()
         
@@ -28,8 +26,9 @@ class ViewController: UIViewController {
    
         bridgeVC.options = options;
         
-        bridgeVC.modalPresentationStyle = .popover
+        bridgeVC.modalPresentationStyle = .fullScreen
         self.present(bridgeVC, animated: true);
+        
     }
     
 }

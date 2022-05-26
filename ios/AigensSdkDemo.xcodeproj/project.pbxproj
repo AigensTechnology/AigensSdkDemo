@@ -48,7 +48,6 @@
 				BAE726DE8B6EDBE7EDE00574 /* Pods-AigensSdkDemo.debug.xcconfig */,
 				E3AC2CE592F42143700CBAAB /* Pods-AigensSdkDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
