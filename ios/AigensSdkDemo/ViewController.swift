@@ -17,13 +17,25 @@ class ViewController: UIViewController {
 
     @IBAction func openClicked(_ sender: Any) {
         
-        let url = "https://scantest.aigens.com/scan?code=c3RvcmU9NTAwJnNwb3Q9MSZwYWdlPWJ5b2Q="
+        var url = "https://scantest.aigens.com/scan?code=c3RvcmU9NTAwJnNwb3Q9MSZwYWdlPWJ5b2Q="
+        
+        url = "https://test.order.place/test/app/store/500"
         
         let bridgeVC = WebContainerViewController()
         
-        var options = [String: AnyObject]()
-        options["url"] = url as AnyObject;
-   
+        var options = [String: Any]()
+        options["url"] = url
+        
+        let member:Dictionary<String, Any> = [
+        
+            "memberCode" : "<crmMemberId>",
+            "source" : "<merchant>",
+            "sessionId" : "<sessionId>"
+            
+        ]
+        
+        options["member"] = member
+        
         bridgeVC.options = options;
         
         bridgeVC.modalPresentationStyle = .fullScreen
