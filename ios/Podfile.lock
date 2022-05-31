@@ -1,0 +1,86 @@
+PODS:
+  - aigens-sdk-core (0.0.4):
+    - Capacitor (~> 3.5.1)
+    - CapacitorApp (~> 1.1.1)
+    - CapacitorBrowser (~> 1.0.7)
+    - CapacitorCamera (~> 1.3.1)
+    - CapacitorDevice (~> 1.1.2)
+    - CapacitorGeolocation (~> 1.3.1)
+    - CapacitorKeyboard (~> 1.2.2)
+    - CapacitorNetwork (~> 1.0.7)
+    - CapacitorPushNotifications (~> 1.0.9)
+    - CapacitorShare (~> 1.1.2)
+    - CapacitorStorage (~> 1.2.5)
+    - CapacitorToast (~> 1.0.8)
+  - Capacitor (3.5.1):
+    - CapacitorCordova
+  - CapacitorApp (1.1.1):
+    - Capacitor
+  - CapacitorBrowser (1.0.7):
+    - Capacitor
+  - CapacitorCamera (1.3.1):
+    - Capacitor
+  - CapacitorCordova (3.5.1)
+  - CapacitorDevice (1.1.2):
+    - Capacitor
+  - CapacitorGeolocation (1.3.1):
+    - Capacitor
+  - CapacitorKeyboard (1.2.2):
+    - Capacitor
+  - CapacitorNetwork (1.0.7):
+    - Capacitor
+    - ReachabilitySwift (~> 5.0)
+  - CapacitorPushNotifications (1.0.9):
+    - Capacitor
+  - CapacitorShare (1.1.2):
+    - Capacitor
+  - CapacitorStorage (1.2.5):
+    - Capacitor
+  - CapacitorToast (1.0.8):
+    - Capacitor
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - aigens-sdk-core (from `../../aigens-sdk/ios/aigens-sdk-core`)
+
+SPEC REPOS:
+  trunk:
+    - Capacitor
+    - CapacitorApp
+    - CapacitorBrowser
+    - CapacitorCamera
+    - CapacitorCordova
+    - CapacitorDevice
+    - CapacitorGeolocation
+    - CapacitorKeyboard
+    - CapacitorNetwork
+    - CapacitorPushNotifications
+    - CapacitorShare
+    - CapacitorStorage
+    - CapacitorToast
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  aigens-sdk-core:
+    :path: "../../aigens-sdk/ios/aigens-sdk-core"
+
+SPEC CHECKSUMS:
+  aigens-sdk-core: ddc19e76a36dc4affb1c2d88cfcfd86fc15b50ea
+  Capacitor: c1b2bffd379c546d3aa1cec58a388592353a509c
+  CapacitorApp: 6539a37b671391147dd0180e1483c051077254bf
+  CapacitorBrowser: b4ee622a4003e0360b2cbcbd17550b3b1f56203e
+  CapacitorCamera: 516a1d0d554357def17e85c8e492d5a983aab80f
+  CapacitorCordova: 46db16aab80803f65018a73fca15a7399fb1ed8c
+  CapacitorDevice: 793e3e66d5b27872e66e0e4079d0cd93b762872c
+  CapacitorGeolocation: 184809324d0bb80c664a157489127fd5db6be067
+  CapacitorKeyboard: 2d8c03dfc9e15c459ec50ecb28c0cc7fe7acddac
+  CapacitorNetwork: 185fc56570cfd4e3d41119d3ccd2a3ab3bd07806
+  CapacitorPushNotifications: 5efe2b9e8f71995bb935ffed1d29539ad037dff2
+  CapacitorShare: f1a8ffd3bba7d6113f53fb65aa47d61764c4640a
+  CapacitorStorage: 63255170c2f7e9f7363b3e5e015584e6d18f2969
+  CapacitorToast: 25dc5a07d70f1467495e846fc3d985d7d6cf242d
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 84819c1d288fcb5a82d77107ef173be713561915
+
+COCOAPODS: 1.11.2
