@@ -3,6 +3,7 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        jcenter()
     }
 }
 dependencyResolutionManagement {
@@ -10,7 +11,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 rootProject.name = "AigensSdkDemo"
 include ':app'
+
+//these need to move to real sdk
+include ':aigens-sdk-core'
+project(':aigens-sdk-core').projectDir = new File(settingsDir, '/Users/peter/workspace/aigens-mono/plugins/aigens-sdk-core/android')
