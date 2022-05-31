@@ -1,5 +1,5 @@
 PODS:
-  - aigens-sdk-core (0.0.4):
+  - AigensSdkCore (0.0.4):
     - Capacitor (~> 3.5.1)
     - CapacitorApp (~> 1.1.1)
     - CapacitorBrowser (~> 1.0.7)
@@ -41,7 +41,7 @@ PODS:
   - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
-  - aigens-sdk-core (from `../../aigens-sdk/ios/aigens-sdk-core`)
+  - AigensSdkCore (from `../../aigens-sdk/ios/AigensSdkCore`)
 
 SPEC REPOS:
   trunk:
@@ -61,11 +61,11 @@ SPEC REPOS:
     - ReachabilitySwift
 
 EXTERNAL SOURCES:
-  aigens-sdk-core:
-    :path: "../../aigens-sdk/ios/aigens-sdk-core"
+  AigensSdkCore:
+    :path: "../../aigens-sdk/ios/AigensSdkCore"
 
 SPEC CHECKSUMS:
-  aigens-sdk-core: ddc19e76a36dc4affb1c2d88cfcfd86fc15b50ea
+  AigensSdkCore: 3014f651dc45731bef0a7b3a44ef488bb88b2c92
   Capacitor: c1b2bffd379c546d3aa1cec58a388592353a509c
   CapacitorApp: 6539a37b671391147dd0180e1483c051077254bf
   CapacitorBrowser: b4ee622a4003e0360b2cbcbd17550b3b1f56203e
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   CapacitorToast: 25dc5a07d70f1467495e846fc3d985d7d6cf242d
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: 84819c1d288fcb5a82d77107ef173be713561915
+PODFILE CHECKSUM: 87cb2a57e5c4a6a7fb4822d8fd38eecb19f93218
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

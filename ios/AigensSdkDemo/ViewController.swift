@@ -7,7 +7,7 @@
 
 import UIKit
 import Foundation
-import aigens_sdk_core
+import AigensSdkCore
 
 class ViewController: UIViewController {
 
