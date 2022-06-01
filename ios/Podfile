@@ -6,7 +6,6 @@ target 'AigensSdkDemo' do
   use_frameworks!
 
   # Pods for AigensSdkDemo
-  #pod 'AigensSdkCore', :path => '../../aigens-sdk/ios/AigensSdkCore'
   pod 'AigensSdkCore', '0.0.6'
   
 end
