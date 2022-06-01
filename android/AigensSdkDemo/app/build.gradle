@@ -33,9 +33,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
-    implementation 'com.aigens:aigens-sdk-core:0.0.5'
-
-//    implementation project(':aigens-sdk-core')
+    implementation 'com.aigens:aigens-sdk-core:0.0.6'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
