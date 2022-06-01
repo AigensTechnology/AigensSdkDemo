@@ -19,9 +19,6 @@ class ViewController: UIViewController {
         
         var url = "https://scantest.aigens.com/scan?code=c3RvcmU9NTAwJnNwb3Q9MSZwYWdlPWJ5b2Q="
         
-
-        url = "https://test.order.place/test/app/store/500?nocache=true";
-
         
         let bridgeVC = WebContainerViewController()
         
