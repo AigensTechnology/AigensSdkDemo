@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.aigens.sdk.WebContainerActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -34,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(act, WebContainerActivity.class);
 
         String url = "https://scantest.aigens.com/scan?code=c3RvcmU9NTAwJnNwb3Q9MSZwYWdlPWJ5b2Q=";
-
-        intent.putExtra("URL", url);
+        intent.putExtra("url", url);
         act.startActivity(intent);
 
     }
